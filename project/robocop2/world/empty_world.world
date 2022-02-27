@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+	<world name="default">
+		<!-- A global light source -->
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<!-- A ground plane -->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+		
+		<!-- A walls -->
+		<include>
+			<uri>model://robocop_maze</uri>
+			<pose>1.5 1 0 0 0 -3.139 </pose>
+		</include>
+		
+		<include>
+			<name>product1</name>
+			<uri>model://product</uri>
+			<pose>3.76 2 0 0 0 0 </pose>
+		</include>
+		
+		<include>
+			<name>product2</name>
+			<uri>model://product</uri>
+			<pose>2.89 2 0 0 0 0 </pose>
+		</include>
+		
+		<include>
+			<name>product3</name>
+			<uri>model://product</uri>
+			<pose>2.04 2 0 0 0 0 </pose>
+		</include>
+		
+		<include>
+			<name>product4</name>
+			<uri>model://product</uri>
+			<pose>1.14 2 0 0 0 0 </pose>
+		</include>
+		
+		<include>
+			<name>product5</name>
+			<uri>model://product</uri>
+			<pose>3.76 0 0 0 0 0 </pose>
+		</include>
+		
+		<include>
+			<name>product6</name>
+			<uri>model://product</uri>
+			<pose>2.89 0 0 0 0 0 </pose>
+		</include>
+		
+		<include>
+			<name>product7</name>
+			<uri>model://product</uri>
+			<pose>2.04 0 0 0 0 0 </pose>
+		</include>
+		
+		<include>
+			<name>product8</name>
+			<uri>model://product</uri>
+			<pose>1.14 0 0 0 0 0 </pose>
+		</include>
+				
+	</world>
+</sdf>
+
